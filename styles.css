@@ -1,0 +1,35 @@
+.container {
+  max-width: 600px;
+  border: 1px red dotted;
+  padding: 20px;
+}
+
+section {
+  display: flex;
+  /*this really makes a lot of diff to the button. check the usage again*/
+  align-items: center;
+}
+button {
+  border-radius: 50px;
+}
+
+img {
+  border-radius: 50%;
+  width: 20px;
+}
+.child {
+  /* flex-direction: column; */
+  flex-direction: column;
+  row-gap: 0px;
+}
+p {
+  justify-content: baseline;
+  border-left: 2px lightgray solid;
+  padding: 10px;
+}
+
+h5 {
+  column-gap: 0;
+  color: lightgray;
+  padding: 5px;
+}
