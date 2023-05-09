@@ -1,5 +1,5 @@
 .container {
-  max-width: 600px;
+  max-width: 400px;
   border: 1px red dotted;
   padding: 20px;
 }
@@ -22,14 +22,30 @@ img {
   flex-direction: column;
   row-gap: 0px;
 }
+
 p {
   justify-content: baseline;
   border-left: 2px lightgray solid;
-  padding: 10px;
+  padding: 20px;
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  column-gap: 0;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
   column-gap: 0;
   color: lightgray;
-  padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.spacebtw {
+  column-gap: 5px;
 }
